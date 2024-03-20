@@ -1,40 +1,643 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta lang="en-US">
-        <meta charset="utf-8">
-        <meta name="keywords" content="BEAUTYPRODUCTS,BEAUTYPRODUCTS.COM">
-        <meta name="description" content="India largest beauty shop you can purchase any beauty with our websites">
-        <meta name="author" content="beautyproducts.com">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
         <title>
-            Homepage
+            CHWebDevelopment
         </title>
+        <style>
+            header{
+                width: 100%;
+                height: 70px;
+                float: left;
+                box-sizing: border-box;
+                padding: 13px;
+            }
+            body{
+                padding: 0;
+                margin: 0;
+            }
+            #brand{
+                padding: 0;
+                margin: 0;
+                font-family: verdana;
+                float: left;
+            }
+            #tag_line{
+                float: right;
+                margin-top: 35px;
+                margin-right: 6px;
+                font-family: calibri;
+            }
+            nav{
+                width: 100%;
+                height: 74px;
+                background-color: #EC7063;
+                float: left;
+                box-sizing: border-box;
+                padding: 15px;
+            }
+            #search{
+                width: 27%;
+                height: 35px;
+                float: left;
+                box-sizing: border-box;
+                border: none;
+                margin-top: 5px;
+                font-size: 15px;
+                padding: 15px;
+            }
+            #search-btn{
+                width: 8%;
+                height: 35px;
+                float: left;
+                box-sizing: border-box;
+                border: none;
+                margin-left: 3px;
+                margin-top: 5px;
+                font-size: 15px;
+                font-family: calibri;
+            }
+            #menu_table{
+                width: 600px;
+                height: 40px;
+                float: right;
+                box-sizing: border-box;
+                margin-top: 2px;
+            }
+            #menu_item{
+                background-color: white;
+                width: 20%;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: sans-serif;
+            }
+            section{
+                width: 100%;
+                height: 3520px;
+                float: left;
+                box-sizing: border-box;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+                padding: 20px;
+            }
+            #add{
+                float: left;
+            }
+            #Order{
+                float: right;
+            }
+            #popular-web-Development-languages{
+                width: 720px;
+                height: 470px;
+                float: left;
+                box-sizing: border-box;
+                background-color:#F8F9F9;
+                margin-top: 30px;
+                padding: 0;
+            }
+            #title1{
+                color: #000000;
+                text-align: center;
+                font-size: 30px;
+                font-family: sans-serif;
+            }
+            #add-img{
+                width: 200px;
+                height: 100px;
+                margin: 18px;
+                margin-top: 5px;
+                border-width: 3px;
+                border-style: solid;
+                border-color: #5DADE2;
+                box-sizing: border-box;
+            }
+            #Courses_Fees{
+                width: 400px;
+                height: 470px;
+                margin-top: 30px;
+                float: right;
+                box-sizing: border-box;
+            }
+            #Language{
+                height: 50px;
+                background-color: #94C3D9;
+                color: rgb(66, 17, 85);
+                font-family: calibri;
+                text-align: center;
+                font-size: 20px;
+            }
+            #Feecourse{
+                background-color: #F5B041;
+            }
+            #Language_names{
+                color: #0a0a0a;
+                font-size: 25px;
+                font-family: tahoma;
+                padding: 5px;
+                border-bottom-width: 2px;
+                border-bottom-style: solid;
+                border-bottom-color: white;
+            }
+            #Duration{
+                color: rgb(0, 0, 0);
+                font-size: 18px;
+                font-family: tahoma;
+                padding: 10px;
+            }
+            #frametable{
+                width: 1260px;
+                height: 850px;
+                float: left;
+                box-sizing: border-box;
+                background-color: #F2F3F4;
+                margin-top: 30px;
+            }
+            #link{
+                width: 1260px;
+                height: 60px;
+                text-align: center;
+                font-size: 35px;
+                font-family: sans-serif;
+                color: rgb(0, 247, 234);
+                background-color: #8B0F80;
+                margin-top: 25px;
+                margin-bottom: 0;
+                padding: 0;
+            }
+            #videoiframe{
+                margin: 10px;
+            }
+            #video{
+                width: 405px;
+                height: 240px;
+                margin: 3px;
+                padding: 0;
+            }
+            fieldset{
+                width: 690px;
+                height: 550px;
+                float: left;
+                margin-top: 50px;
+                border-width: 1px;
+                border-color: #ccc;
+                border-style: solid;
+            }
+            legend{
+                font-family:century gothic;
+                font-size:30px;
+                font-weight:bold;
+                font-family: sans-serif;
+            }
+            #Online_registration{
+                font-size:17px;
+                font-family:sans-serif;
+            }
+            #registration_input{
+                width: 100%;
+                height: 35px;
+                box-sizing: border-box;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+                margin-top: 5px;
+            }
+            textarea{
+                width: 100%;
+                height: 100px;
+                box-sizing: border-box;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+            }
+            #submit_btn{
+                padding: 10px;
+                font-size: 15px;
+                float: right;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+                background-color: white;
+            }
+            #about-us{
+                width: 440px;
+                height: 510px;
+                float: right;
+                margin-top: 68px;
+                border-width: 1px;
+                border-color: #ccc;
+                border-style: solid;
+                padding: 20px;
+            }
+            #abt-title{
+                font-size: 30px;
+                font-family: verdana;
+                margin-top: 5px;
+                text-align: center;
+            }
+            #abt-info{
+                font-family: sans-serif;
+                text-align: justify;
+                line-height: 25px;
+                padding: 0;
+            }
+            #m_paid{
+                float: left;
+                width: 100%;
+                box-sizing: border-box;
+                margin-top: 10px;
+                font-size: 20px;
+                text-align: center;
+                font-family: century gothic;
+            }
+            #more_language{
+                width: 350px;
+                height: 210px;
+                border-color: #ccc;
+                border-style: solid;
+                background-color: #FBFCFC;
+                border-width: 1px;
+                float: left;
+                margin: 33px;
+            }
+            #Course{
+                font-size: 20px;
+                text-align: center;
+                margin-top: 10px;
+                font-family: calibri;
+                color: #212F3D;   
+            }
+            hr{
+                margin-top: 5px;
+            }
+            #line-margin{
+                margin-top: 0;
+                padding: 0;
+                width: 80%;
+                
+            }
+            #Duration1{
+                font-size: 16px;
+                color: #1C2833;
+                text-align: center;
+                margin-top: 5px;
+                font-family: calibri;
+                padding: 5px;
+                line-height: 20px;
+                
+            }
+            #Fees{
+                font-size: 23px;
+                color: #e43030;
+                text-align: center;
+                font-family: calibri;
+                padding: 0;
+                
+            }
+            #line2-margin{
+                padding: 0;
+                width: 80%;
+                margin-bottom: 15px;
+            }
+            #btn{
+                padding: 8px;
+                width: 100px;
+                border-width: 1px;
+                
+                border-color: #ccc;
+                background-color: rgb(218, 214, 214);
+            }
+            footer{
+                width: 100%;
+                height: 250px;
+                box-sizing: border-box;
+                float: right;
+                background-color: black;
+            }
+            #social_link{
+                width: 400px;
+                height: 250px;
+                box-sizing: border-box;
+                float: left;
+                padding: 1px;
+            }
+            #social_title{
+                font-family: georgia;
+                color: white;
+                font-weight: normal;
+                text-indent: 35px;
+            }
+            #social_img{
+                margin-top: 20px;
+                width: 40px;
+                height: 40px;
+                margin-top: 10px;
+                margin-left: 40px;
+                margin-bottom: 20px;     
+            }
+            #developer{
+                float: left;
+                color: white;
+                font-family: century gothic;
+            }
+            h2{
+                font-family: georgia;
+                color: white;
+                font-weight: normal;
+                margin-left: 40px;
+                text-align: center;
+            }
+            #email{
+                width: 200px;
+                height: 30px;
+                margin-left: 140px;
+                
+            }
+            #subscribe{
+                width: 208px;
+                height: 40px;
+                margin-left: 140px;
+                font-size: 17px;
+                font-family: verdana;
+                background-color: goldenrod;
+                border: none;
+            }
+            #developed{
+                font-family: sans-serif;
+                font-size: 12px;
+                margin-top: 30px;
+                margin-left: 150px;
+            }
+            #copyright{
+                width: 208px;
+                height: 20px;
+                background-color: #1C2833;
+                margin-left: 140px;
+                margin-top: 20px;
+                box-sizing: border-box;
+                font-size: 13px;
+                text-indent: 8px;
+                font-family: sans-serif;
+                padding: 5px;
+            }
+            #Contact_Us{
+                width: 400px;
+                height: 250px;
+                box-sizing: border-box;
+                float: right;
+                padding: 10px;
+            }
+            #contact_title{
+                font-family: georgia;
+                color: white;
+                font-weight: normal;
+                text-indent: 20px;
+            }
+            #address{
+                color: white;
+                text-indent: 20px;
+                font-family: sans-serif;
+                font-style: normal;
+                margin-bottom: 10px;
+            }
+
+        </style>
     </head>
     <body>
-
-        <!--Start nav coding-->
+        <header>
+            <h1 id="brand">CH WEB Development.com</h1>
+            <p id="tag_line">The world's largest Development Platform company</p>
+        </header>
         <nav>
-            <h1>Welcome !</h1>
-            <table id="menu" align="center" cellspacing="10">
+            <form>
+                <input id="search" type="search" name="search" placeholder="search your course here">
+                <input id="search-btn" type="submit" value="Search">
+            </form>
+
+            <table id="menu_table">
                 <tr>
-                    <td id="nav-item"><a href="index.html">Home</a></td>
-                    <td id="nav-item"><a href="products.html">products</a></td>
-                    <td id="nav-item"><a href="Contact.html">Contact</a></td>
-                    <td id="nav-item"><a href="signup.html">Sign Up</a></td>
-                    <td id="nav-item"><a href="login.html">Login</a></td>
+                    <td id="menu_item"><a href="#">Home</a></td>
+                    <td id="menu_item"><a href="#m_paid">Course</a></td>
+                    <td id="menu_item"><a href="#Feecourse">Language</a></td>
+                    <td id="menu_item"><a href="#about-us">About us</a></td>
+                    <td id="menu_item"><a href="#Contact_Us">Contact us</a></td>
                 </tr>
             </table>
         </nav>
-        <!--end nav Coding-->
-        <section id="home_section">
-            <center>
-            <div id="logo">
-                <h1 id="logo_text">B</h1>
+
+        <section>
+            <address id="add">
+                Location : Palwal, 121102 (Haryana) 
+            </address>
+            <address id="Order">
+                Order online : +91 8973973085, +91 7082587256
+            </address>
+            <div id="popular-web-Development-languages">
+                <h1 id="title1">Our Popular Language's</h1>
+                <img src="html.jpg" alt="html" id="add-img">
+                <img src="CSS.jpg" alt="css" id="add-img">
+                <img src="Javascript.jpg" alt="Javascript" id="add-img">
+                <img src="node js.jpg" alt="node js" id="add-img">
+                <img src="PHP.jpg" alt="PHP" id="add-img">
+                <img src="React.jpg" alt="React" id="add-img">
+                <img src="SQL.jpg" alt="SQL" id="add-img">
+                <img src="Express js.jpg" alt="Express" id="add-img">
+                <img src="Mongo DB.png" alt="MongoDB" id="add-img">
             </div>
-            </center>
-            <p id="domain">Beautyproducts.com</p>
+
+            <table id="Courses_Fees">
+                <tr>
+                    <td id="Language">Language's Name</td>
+                    <td id="Language">Duration</td>
+                </tr>
+                
+                <tr>
+                    <td id="Feecourse">
+                        <ol>
+                            <li id="Language_names">HTML</li>
+                            <li id="Language_names">CSS</li>
+                            <li id="Language_names">Javascript</li>
+                            <li id="Language_names">node Js</li>
+                            <li id="Language_names">PHP</li>
+                            <li id="Language_names">React</li>
+                            <li id="Language_names">SQL</li>
+                            <li id="Language_names">Express Js</li>
+                            <li id="Language_names">MongoDB</li>
+                        </ol>
+                    </td>
+                    <td id="Feecourse">
+                        <ul type="disk">
+                            <li id="Duration">1.Month</li>
+                            <li id="Duration">1.Month</li>
+                            <li id="Duration">2.Month</li>
+                            <li id="Duration">2 & 3 Month</li>
+                            <li id="Duration">4.Month</li>
+                            <li id="Duration">3.Month</li>
+                            <li id="Duration">15 to 20 Day's</li>
+                            <li id="Duration">2.5 Month</li>
+                            <li id="Duration">3 to 4 Week</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <table id="frametable">
+                <tr>
+                    <td id="link">Watching This Video's and Create your Website</td>
+                </tr>
+                <tr>
+                    <td id="videoiframe" align="center">
+                        <iframe id="video"  src="https://www.youtube.com/embed/HcOc7P5BMi4?si=S2-Mf6Xk3fqYcSA2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe id="video"  src="https://www.youtube.com/embed/ESnrn1kAD4E?si=rEcTiYcGelZdfzUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe id="video"  src="https://www.youtube.com/embed/VlPiVmYuoqw?si=XQ43IgM0Vz3LDPoe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe id="video"  src="https://www.youtube.com/embed/BLl32FvcdVM?si=KQE16sNC3jsd3sQf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe id="video"  src="https://www.youtube.com/embed/1SnPKhCdlsU?si=sUgbtEjn0WEGRlVZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe id="video"  src="https://www.youtube.com/embed/RGKi6LSPDLU?si=8uSJSHF1IN9XKDzD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe id="video"  src="https://www.youtube.com/embed/hlGoQC332VM?si=eZnNUBzdNEjCFhFG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe id="video"  src="https://www.youtube.com/embed/7H_QH9nipNs?si=IDntv5gEa3yrYObq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe id="video"  src="https://www.youtube.com/embed/rU9ZODw5yvU?si=ChkjxQCDQWZYSwuz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </td>
+                </tr>
+            </table id="registrationtable">
+            <fieldset id="form_box">
+                <legend>REGISTRATION FORM</legend>
+                <form id="Online_registration">
+                    Student Name<br>
+                    <input type="text" name="student name" id="registration_input"><br><br>
+                    Mobile Number<br>
+                    <input type="number" name="Mobile Number" id="registration_input"><br><br>
+                    Select Course<br>
+                    <select name="Select Course" id="registration_input">
+                        <option value="HTMl">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Javascript">Javascript</option>
+                        <option value="node js">node js</option>
+                        <option value="PHP">PHP</option>
+                        <option value="React">React</option>
+                        <option value="SQL">SQL</option>
+                        <option value="Express">Express</option>
+                        <option value="MongoDB">MongoDB</option>
+                        <option value="Other course.">Other course.</option>
+                    </select><br><br>
+                    Email I'D<br>
+                    <input type="email" name="email" id="registration_input"><br><br>
+                    Address<br>
+                    <textarea name="Address"></textarea><br><br>
+                    <input type="submit" value="Register Now!" id="submit_btn">
+                </form>
+               
+            </fieldset> 
+            <div id="about-us"><h1 id="abt-title">About Us</h1><hr width="70%">
+            <p id="abt-info">On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly. To change the overall look of your document, choose new Theme elements on the Page Layout tab.hange the looks available in the Q To cuick Style gallery, use the Change CurrentOn the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document.</p>
+            </div>
+            <div id="m_paid">
+                <h1 align="center">More Language</h1>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">Basic Computer Course</h3>
+                <hr id="line-margin">
+                <p id="Duration1">Duration : 3 Months <br>Fee : ₹ 2999 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">ADCA Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 12 Months<br>Fee : ₹ 1899 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">Web Development Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 12 Months<br>Fee : ₹ 39999 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">Tally Prime Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 1 Months<br>Fee : ₹ 1999 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">Advance Excel Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 1 Months<br>Fee : ₹ 1999 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">Photoshop Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 1 Months<br>Fee : ₹ 2999 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">Corel Draw Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 1 Months<br>Fee : ₹ 3999 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">Ms Office Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 2 Months<br>Fee : ₹ 2499 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">DCA Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 6 Months<br>Fee : ₹ 9599 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">Tally ERP 9 Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 1 Months<br>Fee : ₹ 1999 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">HTML Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 1 Months<br>Fee : ₹ 1499 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+
+            </div>
+            <div id="more_language">
+                <h3 id="Course">CSS Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 1 Months<br>Fee : ₹ 2499 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">CSS 3 Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 1 Months<br>Fee : ₹ 2500 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
+            <div id="more_language">
+                <h3 id="Course">JavaScript Course</h3><hr width="80%">
+                <p id="Duration1">Duration : 3 Months<br>Fee : ₹ 4999 <br><b id="Fees">With Certificate</b></p><hr id="line2-margin">
+                <center><a href="#form_box"><button id="btn">Buy Course</button></a></center>
+            </div>
         </section>
+        <footer>
+            <div id="social_link">
+                <h1 id="social_title">Follow Us</h1>
+                <a href="https://www.instagram.com/rajesh_choudhary_011/"><img id="social_img" src="instagram.png"></a> 
+                <a href="https://www.linkedin.com/in/rajesh-choudhary-429217267/"><img id="social_img" src="linkedin.png"></a>
+                <a href="https://web.whatsapp.com/"><img id="social_img" src="WhatsApp.png"></a>
+                <a href="https://twitter.com/RajeshChou81792?t=yAnmC58TdeP7mp4W-p6BxA&s=08"><img id="social_img" src="twitter.png"></a>
+                <a href="https://youtube.com/@R.a.j.e.s.h?si=yx_YMvHHfC-kc_oe"><img id="social_img" src="youtube.png"></a>
+                <a href="choudharyrajesh7457@gmail.com"><img id="social_img" src="facebook.png"></a>
+                <a href="#"><img id="social_img" src="Email.png"></a>
+                <a href="#"><img id="social_img" src="telegram.png"></a>
+            </div>
+            <div id="developer">
+                <form>
+                <h2>Newslatter</h2>
+                <input id="email" type="email" name="email" placeholder="Your email id here"><br><br>
+                <input id="subscribe" type="submit" name="submit" value="subscribe">
+                </form>
+                <p id="developed">Developed By : Rajesh Choudhary</p>
+                <div id="copyright">copyright&copy; 2024 CHDeveloper</div>
+            </div>
+            <div id="Contact_Us">
+                <h1 id="contact_title">Contact Us</h1>
+                <address id="address">Website : CHWebDevelopment</address>
+                <address id="address">Phone No. : +91 9050723838</address>
+                <address id="address">Email Id : development.com</address>
+                <address id="address">Address : Ram Nagar, Camp Palwal</address>
+                </address>
+            </div>
+        </footer>
     </body>
 </html>
