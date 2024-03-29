@@ -1,0 +1,530 @@
+body{
+    background-image: url(../bg/image/bpi.jpg);
+    background-size: 100% 650px;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+/* Start nav Coding*/
+nav{
+    width: 100%;
+    height: 180px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    width: 600px;
+    height: 45px;
+    box-sizing: border-box;
+}
+#nav-item{
+    width: 20%;
+    height: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+/* end nav coding*/
+
+/* Start Home page section coding */
+
+#home_section{
+    width: 700px;
+    height: 440px;
+    float: right;
+    box-sizing: border-box;
+    background-image: url(../bg/image/section-bg.png);
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+#logo_text{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    font-size: 160px;
+    margin-top: -33px;
+}
+
+#domain{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: verdana;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 144px;
+    
+}
+/* End Home page section coding */
+
+/* Start login page nav coding */
+
+#domain_name{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+/* end login page nav coding */
+
+/* Start login page section coding */
+
+fieldset{
+    width: 380px;
+    height: 250px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 165px;
+    padding: 25px;
+}
+#login_section{
+    width: 700px;
+    height: 440px;
+    float: right;
+    box-sizing: border-box;
+    background-image: url(../bg/image/section-bg.png);
+    padding: 50px;
+}
+
+legend{
+    font-family: century gothic;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+#login_form{
+    font-family: century gothic;
+    color: white;
+    font-size: 22px;
+}
+#username{
+    width: 100%;
+    height: 25px;
+    background-color: inherit;  
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white; 
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+#password{
+    width: 100%;
+    height: 25px;
+    background-color: inherit;  
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white; 
+    margin-top: 10px;
+    color: white;
+    font-size: 17px;
+}
+#login-btn{
+    width: 100px;
+    height: 35px;
+    float: right;
+    margin-top: 8px;
+    background-color: inherit;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white; 
+    color: white;
+    font-family: century gothic;
+}
+
+/* end login page section coding */
+
+/* Start Sign up page nav coding */
+#domain_signup{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#signup_hr{
+    width: 50%;
+    height: 1px;
+    background-color:  #ccc;
+}
+#blackShadow{
+    width: 100%;
+    height: 140px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px;
+}
+/* Start Sign up page nav coding */
+
+/* Start Sign up page section coding */
+#domain_signup{
+    margin-top: -20px;
+}
+#blacksection{
+    width: 100%;
+    height: 480px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0,0.7);
+}
+#signup-fieldset{
+    width: 300px;
+    height: 415px;
+    margin-left: 500px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+#signup-title{
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+#sing-up{
+    color: white;
+    font-family: century gothic;
+    font-size: 20px;
+    padding: 0;
+}
+#form-section{
+    width: 250px;
+    height: 30px;
+    background-color: inherit;  
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white; 
+    color: white;
+    font-size: 16px;
+}
+#form-submit{
+    width: 100px;
+    height: 30px;
+    float: right;
+    background-color: inherit;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white; 
+    color: white;
+    font-family: century gothic;
+    font-size: 17px;
+}
+/* end Sign up page section coding */
+
+/* Start Contact page section coding */
+#Contact-fieldset{
+    width: 320px;
+    height: 350px;
+    margin-top: 70px;
+    box-sizing: border-box;
+    float: left;
+}
+#Contact-title{
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+}
+#contact-address{
+    margin-top: -20px;
+    font-size: 20px;
+    color: white;
+    
+    font-family: geneva;
+    margin-bottom: 20px;
+    line-height: 35px;
+    font-style: normal;
+}
+b{
+    color: #1EDE00;
+    font-size: 18;
+    font-family: tahoma;
+}
+u{
+    color: #ccc;
+    margin-top: -10px;
+}
+#about-us{
+    width: 600px;
+    height: 350px;
+    
+    box-sizing: border-box;
+    float: right;
+    margin-right: 50px;
+    margin-top: 70px;
+    
+    
+}
+#abt-title{
+    font-size: 50px;
+    text-align: center;
+    color:#1DF2C5;
+}
+#abt-info{
+    margin-top: 20px;
+    font-size: 19px;
+    text-align: justify;
+    color: #FDFEFE;
+    font-family:gill snan;
+    line-height: 25px;
+}
+/* end Contact page section coding */
+
+/* Start product page section coding */
+#product-section{
+    width: 100%;
+    height: 2500px;
+    box-sizing: border-box;
+    float: left;
+}
+#brands{
+    width: 100%;
+    height: 330px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    float: left;
+}
+#brand-heading{
+    font-family: century gothic;
+    font-size: 50px;
+    color: black;
+    margin-top: 20px;
+}
+#brand-pic{
+    width: 200px;
+    height: 80px;
+    float: left;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: 30px;
+    margin-top: 20px;
+}
+#search{
+    width: 60%;
+    height: 40px;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    border: none;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    font-size: 18px;
+    padding: 10px;
+    background-image: url(search.png);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#zest-product{
+    width: 100%;
+    height: 430px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0,0.8);
+}
+#zest{
+    text-align: center;
+    color: white;
+    font-family: century gothic;
+    font-size: 35px;
+    margin-top: 20px;
+}
+#zest-product-pic{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    float: left;
+    margin: 35px;
+    margin-left: 39px;
+    
+    
+}
+#dove-product{
+    width: 100%;
+    height: 430px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0,0.8);
+}
+#dove{
+    text-align: center;
+    color: white;
+    font-family: century gothic;
+    font-size: 35px;
+    margin-top: 20px;
+}
+#dove-product-pic{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    float: left;
+    margin: 35px;
+    margin-left: 39px;
+}
+#beauty-product{
+    width: 100%;
+    height: 430px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0,0.8);
+}
+#beauty{
+    text-align: center;
+    color: white;
+    font-family: century gothic;
+    font-size: 35px;
+    margin-top: 20px;
+}
+#beauty-product-pic{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    float: left;
+    margin: 35px;
+    margin-left: 39px;
+}
+#persona-product{
+    width: 100%;
+    height: 430px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0,0.8);
+}
+#persona{
+    text-align: center;
+    color: white;
+    font-family: century gothic;
+    font-size: 35px;
+    margin-top: 20px;
+}
+#persona-product-pic{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    float: left;
+    margin: 35px;
+    margin-left: 39px;
+}
+#amica-product{
+    width: 100%;
+    height: 450px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0,0.8);
+}
+#amica{
+    text-align: center;
+    color: white;
+    font-family: century gothic;
+    font-size: 35px;
+    margin-top: 20px;
+}
+#amica-product-pic{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    float: left;
+    margin: 35px;
+    margin-left: 39px;
+}
+#beautyimg{
+    width: 100%;
+    height: 80%;
+}
+#product-name{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+}
+#product-prize{
+    padding: 0;
+    margin: 0;
+    color: white;
+    margin-left: 8px;
+    font-family: sans-serif;
+    float: left;
+}
+#product-buy{
+    float: right;
+    color: white;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-right: 8px;
+}
+#buy-btn{
+    background-color: inherit;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+/* End product page section coding */
+footer{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    float: left;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
